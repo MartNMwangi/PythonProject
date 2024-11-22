@@ -94,7 +94,7 @@ if uploaded_file:
 
 st.camera_input("Take a photo now")
 
-st.image("data/Screenshot 2024-10-18 at 20.42.25.png", width=800)
+#st.image("data/Screenshot 2024-10-18 at 20.42.25.png", width=800)
 
 # columns
 col1, col2, col3 = st.columns(3)
@@ -102,8 +102,8 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.toggle("Toggle")
 
-with col2:
-    st.image("data/Screenshot 2024-10-18 at 20.42.25.png")
+#with col2:
+    #st.image("data/Screenshot 2024-10-18 at 20.42.25.png")
 
 
 with col3:
