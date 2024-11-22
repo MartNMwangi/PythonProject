@@ -29,12 +29,12 @@ with st.echo():
 
 st.divider()
 
-df = pd.read_csv("data/data.csv")
-st.dataframe(df.head())
+#df = pd.read_csv("data/data.csv")
+#st.dataframe(df.head())
 
-edited_df = st.data_editor(df, num_rows="dynamic")
+#edited_df = st.data_editor(df, num_rows="dynamic")
 
-st.dataframe(edited_df)
+#st.dataframe(edited_df)
 
 # st.table(df)
 
